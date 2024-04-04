@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+}
+
+
+.cabecalho{
+    background-color: #ccc; /* Cor de fundo cinza */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove padding padrão */
+    height: 15vh; /* Altura da tela inteira */
+    display: flex; /* Usa flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.centralizar{
+    display: flex; /* Usa flexbox para centralizar */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+}

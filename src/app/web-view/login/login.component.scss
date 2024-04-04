@@ -1,0 +1,99 @@
+.corpo {
+    width: 100px;
+    /* largura do quadrado */
+    height: 100px;
+    /* altura do quadrado */
+    background-color: #ccc;
+    /* cor de fundo cinza */
+    border: 2px solid black;
+    /* borda preta de 2 pixels */
+
+    margin: 0px;
+}
+
+.center {
+    display: flex;
+    /* Usando flexbox */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    padding-top: 5%;
+}
+
+.center-button {
+    display: flex;
+    /* Usando flexbox */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    padding-top: 1%;
+}
+
+.center-titulo {
+    display: flex;
+    /* Usando flexbox */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    /* Usando flexbox */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    height: 100vh;
+    /* Altura total da tela */
+}
+
+.square {
+    width: 40%;
+    /* Largura do quadrado */
+    height: 60%;
+    /* Altura do quadrado */
+    background-color: #ccc;
+    /* Cor de fundo cinza */
+    border: 2px solid black;
+    /* Borda preta de 2 pixels */
+    border-radius: 10%;
+}
+
+
+
+.botao-azul-claro {
+    background-color: #1900ff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 22px;
+    font-size: 16px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.botao-cinza-escuro {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cadastre-se {
+    cursor: pointer;
+    color: #1100ff;
+}
+
+.cadastre-se:hover {
+    cursor: pointer;
+    color: #839096;
+}

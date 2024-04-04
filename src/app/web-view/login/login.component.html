@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="square">
+        <div>
+            <p class="center-titulo">Login</p>
+        </div>
+        <div class="center">
+            <mat-form-field>
+                <mat-label>Enter your email</mat-label>
+                <input matInput placeholder="pat@example.com" [formControl]="email" (blur)="updateErrorMessage()"
+                    required [(ngModel)]="emailNgModel">
+                <mat-error>{{errorMessage}}</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="center">
+            <mat-form-field>
+                <mat-label>Enter your password</mat-label>
+                <input matInput [type]="hide ? 'password' : 'text'" [(ngModel)]="senhaNgModel">
+                <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'"
+                    [attr.aria-pressed]="hide">
+                    <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+                </button>
+            </mat-form-field>
+        </div>
+        <div class="center-button">
+            <button mat-button class="botao-cinza-escuro" (click)="limparCampos()">Cancelar</button>
+            <button mat-button class="botao-azul-claro">Entrar</button>
+        </div>
+        <div class="center">
+            <h3>Não tem conta? <span class="cadastre-se" (click)="abrirPaginaCadastro()">Cadastre-se</span></h3>
+        </div>
+    </div>
+</div>
